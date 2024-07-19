@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_4547779_rm222_mind_14"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/take_notes_effortlessly"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/note_icon"
+        android:scaleType="centerInside"
+        android:src="@drawable/myimage_foreground" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onGetStartedClick"
+        android:padding="16dp"
+        android:text="@string/get_started_button" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="get_started_button">Start</string>
+    <string name="take_notes_effortlessly">Take Notes Effortlessly</string>
+    <string name="note_icon">Note Icon</string>
+</resources>
+<resources>
+<string name="welcome_message">Welcome to Noteapp</string>
+</resources>
